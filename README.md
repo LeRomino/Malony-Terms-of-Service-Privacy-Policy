@@ -43,17 +43,21 @@ Les données ne sont pas utilisées en dehors des cas mentionnés ci-dessus et n
 Le bot peut stocker automatiquement les informations suivantes lorsqu'il est invité sur un nouveau serveur Discord :
 
 pour le serveur:
+
     "guildId" avec l'ID du serveur comme valeur
     "guildName" avec le nom du serveur comme valeur
     "langue" avec la valeur "en"
     "commandsUsed" avec le nombre de commandes utilisées sur le serveur
     "setup" avec le nombre de systèmes que vous avez activés manuellement (par exemple "levels: true")
-    
-pour chaque utilisateur:
+
+pour l'utilisateur:
+
+    "userId" avec l'ID de l'utilisateur comme valeur
+    "userName" avec le nom de l'utilisateur comme valeur
     "usingLuckCommand" avec le nombre de fois où la commande luck a été utilisée
     "levelLuckCommand" avec le nombre correspondant au level de la commande luck
     "levelsMessages" avec le nombre de messages écrits sur le serveur
-    
+
 
 Aucune autre information en dehors de celle mentionnée ci-dessus ne sera stockée.
 
